@@ -10,13 +10,13 @@
 
    <!-- Bootstrap css link -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+   <!-- Css link -->
+   <link rel="stylesheet" href="/css/style.css">
 </head>
-
 
 <body>
    <header>
-      <nav class="navbar navbar-expand-lg bg-body-secondary container">
+      <nav class="navbar navbar-expand-lg bg-body-secondary">
          <div class="container-fluid">
             <a class="navbar-brand fw-bolder fs-3 ms-5" href="#">Biker's Zone</a>
 
@@ -54,7 +54,7 @@
       </nav> 
 
       <!-- Sliders -->
-       <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 container">
+       <div id="carouselExample" class="carousel slide bg-danger bg-opacity-10 container mt-5 rounded">
          <div class="carousel-inner py-5">
 
             <div class="carousel-item active">
@@ -115,8 +115,6 @@
          </button>
       </div> 
    </header>
-
-
 
    <main>
       <!-- Bike features -->
@@ -188,11 +186,9 @@
          </div>
       </section>
 
-
       <!-- For happy clients -->
       <section class="container mt-5">
          <h1 class="text-center">Happy <span class="text-danger">Clients says</span></h1>
-
 
          <div class="row row-cols-1 row-cols-md-3 g-4">
               <div class="col">
@@ -265,7 +261,6 @@
       <!-- Code for FAQ -->
       <section class="container mt-5">
          <h1 class="text-center">Frequently ask <span class="text-danger ">Questions</span></h1>
-
          <div class="row align-items-center mt-5">
                <div class="col-12 col-md-6 mb-3">
                   <img height="450px" src="./images/faq.png" alt="">
@@ -293,7 +288,6 @@
                         </div>
                      </div>
 
-
                      <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -314,7 +308,6 @@
                         </div>
                      </div>
 
-
                      <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -334,7 +327,6 @@
                            </div>
                         </div>
                      </div>
-
 
                       <div class="accordion-item">
                          <h2 class="accordion-header" id="headingFour">
@@ -361,10 +353,44 @@
       </section>
    </main>
 
+   <footer class="bg-black d-flex justify-content-evenly align-items-center py-4">
+         <div>
+            <div class="mb-3 foo-common-color">
+               <span class="me-3">Download</span>
+               <span>License</span>
+            </div>
+
+            <div class="foo-features mb-3 foo-common-color">
+               <span>About</span>
+               <span>Features</span>
+               <span>Career</span>
+               <span>Pitching</span>
+               <span>Help</span>
+               <span>Privacy policy</span>
+            </div>
+
+            <div>
+               <small class="foo-common-color">© 2020 bike. All rights reserved</small>
+            </div>
+         </div>
 
 
+         <div>
+            <div>
+               <div class="foo-common-color mb-3">
+                  <h4 class="text-center">Get the App</h4>
+               </div>
 
-   <footer>
+               <div class="mb-3">
+                  <img src="/images/ios.png" alt="">
+               </div>
+
+               <div>
+                  <img src="./images/android.png" alt="">
+               </div>
+            </div>
+            </div>
+         </div>
    </footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
